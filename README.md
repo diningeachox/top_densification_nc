@@ -43,9 +43,9 @@ We also used the following hyperparameters:
 
 | Regularization Type  | MNIST-250 | SVHN-250 |
 | ------------- | ------------- | ---------|
-| Vanilla  | 92.53 +- 0.76| 75.07 +- 2.70 |
-| Hofer et al's topological regularizer | 94.10 +- 0.30  (a) | 77.50 +- 2.00 (b) |
-| Our regularizer  | 94.24 +- 0.47  | 77.50 +- 2.00  |
+| Vanilla  | 92.53 ± 0.76| 75.07 ± 2.70 |
+| Hofer et al's topological regularizer | 94.10 ± 0.30  (a) | 77.50 ± 2.00 (b) |
+| Our regularizer  | 94.24 ± 0.47  | 78:23 ± 1:81  |
 
 (a) Hofer’s best result after varying only β and keeping other hyperparameters fixed (e.g. lr=0.1)
 (b) Hofer’s best result after a full hyperparameter grid search (i.e. varying both learning rate and β)
